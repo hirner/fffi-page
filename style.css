@@ -226,6 +226,7 @@ iframe {
 	display: inline;
 	float: left;
 	width: 100%;
+	min-height: 100vh;
 	position: relative;
 	background-position: center center;
 	background-attachment: fixed;
@@ -247,11 +248,12 @@ iframe {
 }
 
 .mu-hero-area {
-	display: inline;
-	float: left;
 	position: relative;
 	z-index: 99;
 	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
 }
 
 .mu-hero-top {
